@@ -1,5 +1,7 @@
+@import url("cartao.css");
+
 * {
-    font-family: "Google Sans", sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -12,10 +14,10 @@ body {
 }
 
 header {
-    /* border: .1rem solid red; */
+    /* border: 0.1rem solid red; */
     height: 2rem;
-    background-color: black;
-    color: #ffff;
+    background-color: #252523;
+    color: #eee;
     display: flex;
     /* justify-content: center; */
     align-content: center;
@@ -33,8 +35,6 @@ nav {
     /* border: .1rem solid orangered; */
     background-color: #eee;
     padding: .5rem;
-
-
 }
 
 main {
@@ -45,8 +45,13 @@ main {
 }
 
 footer {
-    border: .1rem solid green;
+    /* border: .1rem solid green; */
     height: 2rem;
-    background-color: black;
-    color: #ffff;
+    background-color: #252523;
+    color: #eee;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    padding: .5rem;
 }
