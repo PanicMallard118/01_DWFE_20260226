@@ -38,10 +38,12 @@ nav {
 }
 
 main {
-    /* border: .1rem solid purple; */
     display: flex;
     flex: 1;
     padding: .5rem;
+    flex-wrap: wrap; /* Permite que o conteúdo vá para a linha de baixo se faltar espaço */
+    gap: 1.5rem; /* Cria um distanciamento seguro entre os elementos */
+    align-items: flex-start; /* Evita que os cartões estiquem verticalmente de forma bizarra */
 }
 
 footer {
